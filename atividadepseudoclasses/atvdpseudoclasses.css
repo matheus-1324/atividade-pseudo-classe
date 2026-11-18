@@ -1,0 +1,183 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333333;
+}
+
+
+header {
+    background-color: #005594;
+    color: #ffffff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.link-menu {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* Pseudoclasses nos links */
+.link-menu:hover {
+    background-color: #005594;
+}
+
+.link-menu:focus {
+    outline: 2px solid #ffffff;
+    background-color: #005594;
+}
+
+
+.apresentacao {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.apresentacao h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.apresentacao p {
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #dddddd;
+}
+
+.btn-destaque {
+    background-color:#005594 ;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.btn-destaque:hover {
+    background-color: #005594;
+}
+
+.btn-destaque:focus {
+    outline: 3px solid #ffffff;
+}
+
+
+.secao-cursos {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+.secao-cursos h2 {
+    display: inline-block;
+    border: 2px solid #005594;
+    border-radius: 6px;
+    padding: 8px 20px;
+    margin-bottom: 35px;
+    color: #222222;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 25px 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.card:first-child {
+    border: 2px solid #cccccc;
+    background-color: #FFFFFF ;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #111111;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.carga-horaria {
+    font-size: 13px;
+    font-weight: bold;
+    color: #005594;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.btn-card {
+    background-color: #005594;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.btn-card:hover {
+    background-color: #005594;
+}
+
+.btn-card:focus {
+    outline: 2px solid #111111;
+}
+
+
+.rodape {
+    background-color: #ffffff;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #444444;
+}
